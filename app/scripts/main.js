@@ -1,1 +1,3 @@
-console.log('\'Allo \'Allo!');
+(function() {
+    angular.module('project', ['controllers']);
+})();
