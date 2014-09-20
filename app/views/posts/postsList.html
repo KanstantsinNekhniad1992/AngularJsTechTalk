@@ -1,0 +1,17 @@
+<div class="content">
+    <h3 class="text-mutes">Current Posts</h3>
+    <div ng-repeat="post in postsModel.posts">
+        <hr/>
+        <h4>{{post.title}}</h4>
+        <div class="postAuthor">
+            <img class="img-responsive" ng-src="{{post.image}}" alt="photo{{$index+1}}"/>
+            <span>{{post.author}}</span>
+        </div>
+        <div class="postDate">
+           Posted: {{post.date}}
+        </div>
+        <p>{{post.text}}</p>
+        <a href="#">Читать далее...</a>
+    </div>
+    <button type="button" class="btn">Add new post</button>
+</div>
