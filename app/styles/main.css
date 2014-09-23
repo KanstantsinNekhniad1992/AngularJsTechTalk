@@ -50,6 +50,23 @@ body {
     height: auto;
 }
 
+.form-group input[type=file] {
+    width: 79%;
+    margin-left: 19%;
+    border: none;
+}
+
+.newPost {
+    position: fixed;
+    top: 320px;
+    width: 650px;
+    padding: 15px 15px 0 0;
+    border: 4px solid #0DD53F;
+    border-radius: 10px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {
