@@ -16,5 +16,7 @@
             error(function() {
                 $scope.postsModel.notFound = 'Posts not found!';
             });
+			
+			console.log("I'm in example directory!");
         }]);
 })();
