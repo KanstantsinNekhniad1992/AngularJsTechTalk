@@ -71,6 +71,29 @@ body {
     height: 300px;
 }
 
+.newPost form {
+    margin-top: 15px;
+}
+
+.close-button {
+    position: absolute;
+    top: 2px;
+    right: 3px;
+    font-size: 21px;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.close-button:hover {
+    opacity: 1.0;
+}
+
+.clearfix:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {
